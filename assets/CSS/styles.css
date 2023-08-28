@@ -58,3 +58,23 @@ footer {
     padding: 10px;
     text-align: left;
 }
+
+.firstbanner {
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    background-color: #f2f5f8;
+    padding: 20px;
+    position: relative;
+}
+
+.img2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: auto;
+    max-width: none;
+    height: auto;
+}
