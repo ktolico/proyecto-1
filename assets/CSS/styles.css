@@ -54,7 +54,8 @@ nav a {
 }
 
 footer {
-    color: #333;
+    background-color: #333;
+    color: white;
     padding: 10px;
     text-align: left;
 }
@@ -77,4 +78,32 @@ footer {
     width: auto;
     max-width: none;
     height: auto;
+}
+
+.imgprodu {
+    max-width: 100%;
+    height: auto;
+}
+
+.product-section {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+
+}
+
+.product-item {
+    border: 1px solid #ccc;
+    padding: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.titulos {
+    text-decoration: none;
+    color: black;
+    margin-top: 1rem;
 }
